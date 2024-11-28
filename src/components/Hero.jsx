@@ -10,16 +10,18 @@ import blurIndigoImage from '@/images/blur-indigo.png'
 
 const codeLanguage = 'javascript'
 const code = `{
-  "name": "My Server",
-  "memory": 2048,
-  "cpu": 1,
-  "node": 2,
-  "image": "quay.io/skyport/node"
-}`
+  "title": "Home Page",
+  "meta": "Welcome to our homepage.",
+  "logo": "/favicon.ico",
+  "tailwindcss": true
+}
+<!---Content--->
+<h1>Welcome to HyScript!</h1>
+<p>This is a dynamic page.</p>`
 
 const tabs = [
-  { name: 'createServerObject.json', isActive: true },
-  { name: 'skyport.js', isActive: false },
+  { name: 'home.hs', isActive: true },
+  { name: 'index.js', isActive: false },
 ]
 
 function TrafficLightsIcon(props) {
@@ -49,14 +51,14 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-white font-semibold bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                An actual alternative to Pterodactyl Panel.
+              Next Generation Language.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-neutral-400">
-                Skyport is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode.
+              HyScript is a lightweight and dynamic server-side framework that allows you to easily create and serve web pages using .hs files written in JSON format.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/docs/installation">Get started</Button>
-                <Button href="https://github.com/skyportlabs" variant="secondary">
+                <Button href="https://github.com/hydren-dev/HyScript" variant="secondary">
                   View on GitHub
                 </Button>
               </div>

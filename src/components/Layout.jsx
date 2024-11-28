@@ -8,29 +8,18 @@ import { Logo, Logomark } from '@/components/Logo'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
-import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 
 const navigation = [
   {
-    title: 'Panel',
+    title: 'HyScript',
     links: [
       { title: 'Getting started', href: '/' },
       { title: 'Installation', href: '/docs/installation' },
-      { title: 'Webserver Configuration', href: '/docs/webserver' },
-      { title: 'Terminology', href: '/docs/terminology' },
-      { title: 'Development', href: '/docs/development' },
-      { title: 'Plugins', href: '/docs/plugins' },
-      { title: 'API reference', href: '/docs/api-reference' },
-      { title: 'How do you make an omelette?', href: '/docs/omelette-guide' },
+      { title: 'Example Page ', href: '/docs/example' },
+      { title: 'Static Directory', href: '/docs/static' },
     ],
   },
-  {
-    title: 'Daemon (skyportd)',
-    links: [
-      { title: 'Installation', href: '/docs/daemon' }
-    ],
-  }
 ]
 
 function GitHubIcon(props) {
@@ -69,15 +58,15 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page" className="text-xl font-semibold text-neutral-800 dark:text-white">
-          Skyport
+          HyScript
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
-        <Search />
+
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com/skyportlabs" className="group" aria-label="GitHub">
+        <Link href="https://github.com/hydren-dev/HyScript" className="group" aria-label="GitHub">
           <GitHubIcon className="h-6 w-6 fill-neutral-400 group-hover:fill-neutral-500 dark:group-hover:fill-neutral-300" />
         </Link>
       </div>

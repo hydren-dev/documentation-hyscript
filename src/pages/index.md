@@ -1,19 +1,18 @@
 ---
 title: Getting started
-pageTitle: Skyport
-description: Install the Skyport Panel.
+pageTitle: HyScript
+description: Install the HyScript.
 ---
 
-Learn how to get your Skyport Panel set up. {% .lead %}
+Learn how to get your HyScript Website set up. {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="Installation" icon="installation" href="/docs/installation" description="Step-by-step guides to setting up your Skyport Panel." /%}
+{% quick-link title="Installation" icon="installation" href="/docs/installation" description="Step-by-step guides to setting up your HyScript Website." /%}
 
-{% quick-link title="Terminology" icon="presets" href="/docs/terminology" description="Learn how the internals work on Skyport Panel and Daemon." /%}
+{% quick-link title="Example Page" icon="presets" href="/docs/example" description="Learn how to Create a Example Page on HyScript." /%}
 
-{% quick-link title="Plugins" icon="plugins" href="/docs/plugins" description="Extend your Panel with third-party plugins or write your own." /%}
+{% quick-link title="Static Directory" icon="plugins" href="/docs/static" description="Learn how to set Static Directory on HyScript." /%}
 
-{% quick-link title="API reference" icon="theming" href="/docs/api-reference" description="Learn to easily automate actions with our API." /%}
 
 {% /quick-links %}
