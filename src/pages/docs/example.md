@@ -61,7 +61,7 @@ Each `.hs` file is a JSON file containing metadata and content for your web page
 <p>Welcome to the page. Customize the content as per your needs.</p>
 ```
 
-#### How to Define Something
+### How to Define Something
 
 You can use the `define` method in HyScript to create a custom definition for a word or content.
 For Example :
